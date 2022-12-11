@@ -7,9 +7,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1 data-aos="fade-up">SIGBIMAJAK</h1>
-                <!-- <h2 data-aos="fade-up" data-aos-delay="400">Website Pembangunan jalan oleh Dinas PUPR Kota Pontianak</h2> -->
-                <h2 data-aos="fade-up" data-aos-delay="400">adalah Sitem Informasi Geografis Bina Marga Jalan Kota Pontianak, data/informasi yang ditampilkan dalam bentuk tabel, grafik, dan peta. </h2>
+                <h1 data-aos="fade-up">WebGIS Bangunan Bangunan</h1>
+                <!-- <h2 data-aos="fade-up" data-aos-delay="400">Website Pembangunan Bangunan oleh Dinas PUPR Kota Pontianak</h2> -->
+                <h2 data-aos="fade-up" data-aos-delay="400">adalah Sitem Informasi Geografis Bina Marga Bangunan Kota Pontianak, data/informasi yang ditampilkan dalam bentuk tabel, grafik, dan peta. </h2>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
                         <!-- <a href="{{ route('peta2') }}" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -47,7 +47,7 @@
             <!-- Feature Tabs -->
             <div class="row feture-tabs" data-aos="fade-up">
                 <div class="col-lg-6">
-                    <h3>SIGBIMAJAK PUPR Kota Pontianak</h3>
+                    <h3>WebGIS Bangunan PUPR Kota Pontianak</h3>
 
                     <!-- Tabs -->
                     <ul class="nav nav-pills mb-3">
@@ -67,10 +67,10 @@
 
                         <div class="tab-pane fade show active" id="tab1">
                             <p style="text-align: justify;">
-                                WebGIS merupakan aplikasi Geographic Information System (GIS) yang dapat diakses secara online melalui internet/web. Database jaringan jalan Kota Pontianak sangat dibutuhkan untuk meningkatkan kualitas pengaturan dalam penyelenggaran jalan dengan kualitas kebutuhan dan konektivitas antar wilayah yang optimal. Database yang disusun memiliki sifat yang informatif, akurat, transparansi, dapat dipertanggungjawabkan dan berkelanjutan. Informasi jaringan jalan yang telah dilakukan berupa peta manual maupun peta digital yang belum menggunakan internet, terbatas dan sulit diakses.
+                                WebGIS merupakan aplikasi Geographic Information System (GIS) yang dapat diakses secara online melalui internet/web. Database jaringan Bangunan Kota Pontianak sangat dibutuhkan untuk meningkatkan kualitas pengaturan dalam penyelenggaran Bangunan dengan kualitas kebutuhan dan konektivitas antar wilayah yang optimal. Database yang disusun memiliki sifat yang informatif, akurat, transparansi, dapat dipertanggungjawabkan dan berkelanjutan. Informasi jaringan Bangunan yang telah dilakukan berupa peta manual maupun peta digital yang belum menggunakan internet, terbatas dan sulit diakses.
                             </p>
                             <p style="text-align: justify;">
-                                SIGBIMAJAK adalah Sitem Informasi Geografis Bina Marga Jalan Kota Pontianak, data/informasi yang ditampilkan dalam bentuk tabel, grafik, dan peta. Dengan adanya SIGBIMAJAK dapat memonitor pekembangan infrastruktur jaringan jalan di Kota Pontianak serta pengambilan kebijakan yang akurat.
+                                WebGIS Bangunan adalah Sitem Informasi Geografis Bina Marga Bangunan Kota Pontianak, data/informasi yang ditampilkan dalam bentuk tabel, grafik, dan peta. Dengan adanya WebGIS Bangunan dapat memonitor pekembangan infrastruktur jaringan Bangunan di Kota Pontianak serta pengambilan kebijakan yang akurat.
                             </p>
                             <h4>Link Terkait</h4><br>
                             <div class="col-lg-12 mt-5 mt-lg-0 d-flex">
@@ -102,7 +102,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="assets/img/peta-pontianak/jalan-ptk.JPG" class="img-fluid" alt="">
+                    <img src="assets/img/peta-pontianak/Bangunan-ptk.JPG" class="img-fluid" alt="">
                 </div>
 
             </div><!-- End Feature Tabs -->
