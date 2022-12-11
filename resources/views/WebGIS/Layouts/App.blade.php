@@ -44,7 +44,7 @@
 
         </div>
     </header>
-    <!-- End Header -->
+    <!-- End Headers -->
 
     <!-- ======= Hero Section ======= -->
     @yield('Content')
