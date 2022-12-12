@@ -9,7 +9,7 @@
             <div class="col-lg-6 d-flex flex-column justify-content-center">
                 <h1 data-aos="fade-up">Database Bangunan Gedung PUPR Pontianak</h1>
                 <!-- <h2 data-aos="fade-up" data-aos-delay="400">Website Pembangunan Bangunan oleh Dinas PUPR Kota Pontianak</h2> -->
-                <h2 data-aos="fade-up" data-aos-delay="400">adalah Sitem Informasi Geografis Bina Marga Bangunan Kota Pontianak, data/informasi yang ditampilkan dalam bentuk tabel, grafik, dan peta. </h2>
+                <h2 data-aos="fade-up" data-aos-delay="400">adalah Sitem Informasi Geografis Cipta Karya Bangunan Kota Pontianak, data/informasi yang ditampilkan dalam bentuk tabel, grafik, dan peta. </h2>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
                         <!-- <a href="{{ route('peta2') }}" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -70,7 +70,7 @@
                                 Database Bangunan Gedung PUPR Pontianak merupakan aplikasi Geographic Information System (GIS) yang dapat diakses secara online melalui internet/web. Database jaringan Bangunan Kota Pontianak sangat dibutuhkan untuk meningkatkan kualitas pengaturan dalam penyelenggaran Bangunan dengan kualitas kebutuhan dan konektivitas antar wilayah yang optimal. Database yang disusun memiliki sifat yang informatif, akurat, transparansi, dapat dipertanggungjawabkan dan berkelanjutan. Informasi jaringan Bangunan yang telah dilakukan berupa peta manual maupun peta digital yang belum menggunakan internet, terbatas dan sulit diakses.
                             </p>
                             <p style="text-align: justify;">
-                                Database Bangunan Gedung PUPR Pontianak adalah Sitem Informasi Geografis Bina Marga Bangunan Kota Pontianak, data/informasi yang ditampilkan dalam bentuk tabel, grafik, dan peta. Dengan adanya WebGIS Bangunan dapat memonitor pekembangan infrastruktur jaringan Bangunan di Kota Pontianak serta pengambilan kebijakan yang akurat.
+                                Database Bangunan Gedung PUPR Pontianak adalah Sitem Informasi Geografis Cipta Karya Bangunan Kota Pontianak, data/informasi yang ditampilkan dalam bentuk tabel, grafik, dan peta. Dengan adanya WebGIS Bangunan dapat memonitor pekembangan infrastruktur jaringan Bangunan di Kota Pontianak serta pengambilan kebijakan yang akurat.
                             </p>
                             <h4>Link Terkait</h4><br>
                             <div class="col-lg-12 mt-5 mt-lg-0 d-flex">
