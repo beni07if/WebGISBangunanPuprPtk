@@ -244,10 +244,10 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Nomor Ruas</th>
-                                <th>Nama Ruas</th>
+                                <th>Bangunan Gedung Pontianak</th>
+                                <!-- <th>Nama Ruas</th>
                                 <th>Kecamatan</th>
-                                <th>Kelurahan</th>
+                                <th>Kelurahan</th> -->
                                 <th>Dokumentasi</th>
                             </tr>
                         </thead>
@@ -258,9 +258,9 @@
                             <tr>
                                 <td>{{$no}}</td>
                                 <td>{{$doc->nomor_ruas}}</td>
-                                <td>{{$doc->nama_ruas}}</td>
+                                <!-- <td>{{$doc->nama_ruas}}</td>
                                 <td>{{$doc->kecamatan}}</td>
-                                <td>{{$doc->kelurahan}}</td>
+                                <td>{{$doc->kelurahan}}</td> -->
                                 <td><a href="assets/img/dokumentasi/{{$doc->dokumentasi}}" target="_blank" class="btn btn-info btn-xs"> {{$doc->dokumentasi}}</a></td>
                             </tr>
                             @endforeach
