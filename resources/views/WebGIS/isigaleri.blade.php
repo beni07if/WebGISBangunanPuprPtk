@@ -13,7 +13,7 @@
 
             <header class="section-header" style="padding-top: 150px;">
                 <!-- <h2>Portfolios</h2> -->
-                <p>Galery Pembangunan Jalan PUPR Kota Pontianak</p>
+                <p>Galery Pembangunan Jalan PUPR Kota Pontianaks</p>
             </header>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">

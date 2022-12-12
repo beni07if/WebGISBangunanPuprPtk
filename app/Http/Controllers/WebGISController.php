@@ -136,8 +136,9 @@ class WebGISController extends Controller
     }
     public function download()
     {
-        $peta = Peta::all();
-        return view('WebGIS.download', compact('peta'));
+        // $peta = Peta::all();
+        $dokumentasi = Dokumentasi::all();
+        return view('WebGIS.download', compact('dokumentasi'));
     }
     public function contact()
     {

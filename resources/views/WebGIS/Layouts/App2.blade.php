@@ -26,30 +26,16 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="{{ route('index') }}">HOME</a></li>
                     <!-- <li><a class="nav-link scrollto" href="{{ route('data') }}">DATA</a></li> -->
-                    <li class="dropdown"><a href="#"><span>DATA</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ route('data') }}">JALAN UMUM</a></li>
-                            <li><a href="{{ route('kondisiJalan') }}">KONDISI JALAN</a></li>
-                            <li class="dropdown"><a href="#"><span>KEGIATAN 2020</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="{{route('k2020Pembangunan')}}">Pembangunan</a></li>
-                                    <li><a href="{{route('k2020Peningkatan')}}">Peningkatan</a></li>
-                                    <li><a href="{{route('k2020Pemeliharaan')}}">Pemeliharaan</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="#"><span>KEGIATAN 2021</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="{{route('k2021Pembangunan')}}">Pembangunan</a></li>
-                                    <li><a href="{{route('k2021Rekonstruksi')}}">Rekonstruksi</a></li>
-                                    <li><a href="{{route('k2021Berkala')}}">Berkala</a></li>
-                                    <li><a href="{{route('k2021Trotoar')}}">Trotoar</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
                     <li><a class="nav-link scrollto" href="{{ route('peta2') }}">PETA</a></li>
-                    <li><a class="nav-link scrollto" href="{{ route('galery') }}">GALERY</a></li>
-                    <li><a class="nav-link scrollto" href="{{ route('download') }} ">DOWNLOAD</a></li>
+                    <li><a class="nav-link scrollto" href="{{ route('BangunanGedung') }}">DATA BANGUNAN</a></li>
+                    <!-- <li class="dropdown"><a href="#"><span>BANGUNAN GEDUNG</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ route('data') }}">Data Bangunan Gedung</a></li>
+                            <li><a href="{{ route('kondisiJalan') }}">Data Kerusakan Gedung</a></li>
+                        </ul>
+                    </li> -->
+                    <!-- <li><a class="nav-link scrollto" href="{{ route('galery') }}">GALERY</a></li> -->
+                    <li><a class="nav-link scrollto" href="{{ route('galery') }} ">DOWNLOAD</a></li>
                     <li><a class="nav-link scrollto" href="{{ route('contact') }} ">CONTACT</a></li>
                     <!-- <li><a class="getstarted scrollto" href="{{ route('petaJs') }}">PetaJs</a></li> -->
                     <!-- <li><a class="getstarted scrollto" href="{{ route('peta3') }}">Peta 3</a></li> -->

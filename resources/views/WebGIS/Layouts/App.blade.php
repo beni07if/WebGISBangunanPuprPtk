@@ -35,7 +35,7 @@
                         </ul>
                     </li> -->
                     <!-- <li><a class="nav-link scrollto" href="{{ route('galery') }}">GALERY</a></li> -->
-                    <li><a class="nav-link scrollto" href="{{ route('download') }} ">DOWNLOAD</a></li>
+                    <li><a class="nav-link scrollto" href="{{ route('galery') }} ">DOWNLOAD</a></li>
                     <li><a class="nav-link scrollto" href="{{ route('contact') }} ">CONTACT</a></li>
                     <!-- <li><a class="getstarted scrollto" href="{{ route('petaJs') }}">PetaJs</a></li> -->
                     <!-- <li><a class="getstarted scrollto" href="{{ route('peta3') }}">Peta 3</a></li> -->

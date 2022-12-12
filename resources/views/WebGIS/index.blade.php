@@ -9,7 +9,7 @@
             <div class="col-lg-6 d-flex flex-column justify-content-center">
                 <h1 data-aos="fade-up">Database Bangunan Gedung PUPR Pontianak</h1>
                 <!-- <h2 data-aos="fade-up" data-aos-delay="400">Website Pembangunan Bangunan oleh Dinas PUPR Kota Pontianak</h2> -->
-                <h2 data-aos="fade-up" data-aos-delay="400">adalah Sitem Informasi Geografis Cipta Karya Bangunan Kota Pontianak, data/informasi yang ditampilkan dalam bentuk tabel, grafik, dan peta. </h2>
+                <h2 data-aos="fade-up" data-aos-delay="400">adalah Sitem Informasi Geografis Cipta Karya Bangunan Kota Pontianak, data/informasi yang ditampilkan dalam bentuk tabel dan peta. </h2>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
                         <!-- <a href="{{ route('peta2') }}" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
