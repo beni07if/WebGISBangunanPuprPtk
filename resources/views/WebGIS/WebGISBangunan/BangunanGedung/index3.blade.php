@@ -22,11 +22,11 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12">
-                                <div class="callout callout-info" style="text-align: right;">
+                                <!-- <div class="callout callout-info" style="text-align: right;">
                                     <h5> Lampiran Suran:</h5>
                                     Nomor : <br>
                                     Tanggal :
-                                </div>
+                                </div> -->
 
 
                                 <!-- Main content -->
@@ -114,7 +114,7 @@
 
                                     <!-- title row -->
                                     <div class="row">
-                                        <div class="col-12">
+                                        <!-- <div class="col-12">
                                             <h4>
                                                 DASAR ANALISIS
                                             </h4>
@@ -124,7 +124,7 @@
                                                 <li>Peraturan Walikota Pontianak Nomor 95 tahun 2021 tentang Harga Satuan Bangunan Gedung Negara (HSBGN)
                                                 </li>
                                             </ol>
-                                        </div>
+                                        </div> -->
                                         <div class="col-12">
                                             <h4>
                                                 KEBUTUHAN BIAYA PENGGANTIAN KOMPONEN PEKERJAAN STANDAR
