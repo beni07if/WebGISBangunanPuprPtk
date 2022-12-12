@@ -125,13 +125,13 @@
                                                 </li>
                                             </ol>
                                         </div> -->
-                                        <div class="col-12">
+                                        <!-- <div class="col-12">
                                             <h4>
                                                 KEBUTUHAN BIAYA PENGGANTIAN KOMPONEN PEKERJAAN STANDAR
                                             </h4>
                                             <p>A. Analisis Komponen Pekerjaan Standar
                                             </p>
-                                        </div>
+                                        </div> -->
                                         <!-- /.col -->
                                     </div>
 
