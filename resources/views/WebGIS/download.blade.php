@@ -11,7 +11,7 @@
 
             <header class="section-header" style="padding-top: 150px;">
                 <!-- <h2>Portfolios</h2> -->
-                <p>Peta Jaringan Jalan</p>
+                <p>Data Bangunan Gedung</p>
             </header>
 
             <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
