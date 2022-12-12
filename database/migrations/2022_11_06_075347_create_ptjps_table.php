@@ -13,14 +13,14 @@ class CreatePtjpsTable extends Migration
      */
     public function up()
     {
-        Schema::create('ptjps', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->integer('jp_aspal')->nullable();
-            $table->integer('jp_beton')->nullable();
-            $table->integer('jp_kerikil')->nullable();
-            $table->integer('jp_tanah')->nullable();
-            $table->timestamps();
-        });
+        // Schema::create('ptjps', function (Blueprint $table) {
+        //     $table->bigIncrements('id');
+        //     $table->integer('jp_aspal')->nullable();
+        //     $table->integer('jp_beton')->nullable();
+        //     $table->integer('jp_kerikil')->nullable();
+        //     $table->integer('jp_tanah')->nullable();
+        //     $table->timestamps();
+        // });
     }
 
     /**

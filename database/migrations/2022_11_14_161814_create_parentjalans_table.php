@@ -13,13 +13,13 @@ class CreateParentjalansTable extends Migration
      */
     public function up()
     {
-        Schema::create('parentjalans', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('provinsi');
-            $table->string('nomor_ruas')->unique();
-            $table->string('nama_ruas');
-            $table->timestamps();
-        });
+        // Schema::create('parentjalans', function (Blueprint $table) {
+        //     $table->bigIncrements('id');
+        //     $table->string('provinsi');
+        //     $table->string('nomor_ruas')->unique();
+        //     $table->string('nama_ruas');
+        //     $table->timestamps();
+        // });
     }
 
     /**

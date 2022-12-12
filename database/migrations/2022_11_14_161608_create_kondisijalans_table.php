@@ -13,10 +13,10 @@ class CreateKondisijalansTable extends Migration
      */
     public function up()
     {
-        Schema::create('kondisijalans', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        // Schema::create('kondisijalans', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->timestamps();
+        // });
     }
 
     /**

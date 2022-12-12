@@ -13,10 +13,10 @@ class CreateK2020PembangunansTable extends Migration
      */
     public function up()
     {
-        Schema::create('k2020_pembangunans', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        // Schema::create('k2020_pembangunans', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->timestamps();
+        // });
     }
 
     /**

@@ -13,10 +13,10 @@ class CreateK2020PemeliharaansTable extends Migration
      */
     public function up()
     {
-        Schema::create('k2020_pemeliharaans', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        // Schema::create('k2020_pemeliharaans', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->timestamps();
+        // });
     }
 
     /**

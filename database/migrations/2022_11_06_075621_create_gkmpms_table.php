@@ -13,10 +13,10 @@ class CreateGkmpmsTable extends Migration
      */
     public function up()
     {
-        Schema::create('gkmpms', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        // Schema::create('gkmpms', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->timestamps();
+        // });
     }
 
     /**

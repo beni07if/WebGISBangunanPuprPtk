@@ -13,14 +13,14 @@ class CreatePtkjsTable extends Migration
      */
     public function up()
     {
-        Schema::create('ptkjs', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->float('kondisi_baik')->nullable();
-            $table->float('kondisi_sedang')->nullable();
-            $table->float('kondisi_rusak_ringan')->nullable();
-            $table->float('kondisi_rusak_berat')->nullable();
-            $table->timestamps();
-        });
+        // Schema::create('ptkjs', function (Blueprint $table) {
+        //     $table->bigIncrements('id');
+        //     $table->float('kondisi_baik')->nullable();
+        //     $table->float('kondisi_sedang')->nullable();
+        //     $table->float('kondisi_rusak_ringan')->nullable();
+        //     $table->float('kondisi_rusak_berat')->nullable();
+        //     $table->timestamps();
+        // });
     }
 
     /**

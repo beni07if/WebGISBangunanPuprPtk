@@ -13,20 +13,20 @@ class CreateChildjalansTable extends Migration
      */
     public function up()
     {
-        Schema::create('childjalans', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('patok_dari')->nullable();
-            $table->string('patok_ke')->nullable();
-            $table->string('panjang')->nullable();
-            $table->string('lebar')->nullable();
-            $table->string('kondisi_jalan')->nullable();
-            $table->string('panjang_total')->nullable();
-            $table->timestamps();
-        });
+        // Schema::create('childjalans', function (Blueprint $table) {
+        //     $table->bigIncrements('id');
+        //     $table->string('patok_dari')->nullable();
+        //     $table->string('patok_ke')->nullable();
+        //     $table->string('panjang')->nullable();
+        //     $table->string('lebar')->nullable();
+        //     $table->string('kondisi_jalan')->nullable();
+        //     $table->string('panjang_total')->nullable();
+        //     $table->timestamps();
+        // });
 
-        Schema::table('childjalans', function (Blueprint $table) {
-            $table->foreignId('parentjalan_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
-        });
+        // Schema::table('childjalans', function (Blueprint $table) {
+        //     $table->foreignId('parentjalan_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
+        // });
     }
 
     /**

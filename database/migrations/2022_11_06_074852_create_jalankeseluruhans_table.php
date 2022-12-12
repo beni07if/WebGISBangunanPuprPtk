@@ -13,10 +13,10 @@ class CreateJalankeseluruhansTable extends Migration
      */
     public function up()
     {
-        Schema::create('jalankeseluruhans', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        // Schema::create('jalankeseluruhans', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->timestamps();
+        // });
     }
 
     /**

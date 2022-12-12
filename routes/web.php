@@ -84,3 +84,17 @@ Route::get('/tes', [WebGISController::class, 'coba']);
 // })->name('show-pdf');
 // Route::resource('jalan', 'JalanController');
 // End Admin route
+
+
+
+// Route untuk bangunan
+// Route::get('/data-bangunan-gedung2', 'App\Http\Controllers\BangunanGedungController@BangunanGedung')->name('BangunanGedung2');
+Route::get('/data-bangunan-gedung', 'App\Http\Controllers\WebGISBangunanController@BangunanGedung')->name('BangunanGedung');
+Route::get('/data-bangunan-gedung-sub/{id}', 'App\Http\Controllers\WebGISBangunanController@BangunanGedung2')->name('BangunanGedung2');
+Route::get('/data-bangunan-gedung-detail/{id}', 'App\Http\Controllers\WebGISBangunanController@DetailBangunanLengkap')->name('DetailBangunanLengkap');
+Route::get('/data-kerusakan-gedung', 'App\Http\Controllers\KerusakanGedungController@KerusakanGedung')->name('KerusakanGedung');
+Route::get('/download-bangunan', 'App\Http\Controllers\WebGISBangunanController@downloadBangunan')->name('downloadBangunan');
+
+// Route::get('/kondisi-jalan', 'App\Http\Controllers\WebGISController@kondisiJalan')->name('kondisiJalan');
+// Route::get('/kondisi-jalan-detail/{id}', 'App\Http\Controllers\WebGISController@kondisiJalanDetail')->name('kondisiJalanDetail');
+// End route untuk bangunan

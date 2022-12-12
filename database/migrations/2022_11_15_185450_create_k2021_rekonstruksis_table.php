@@ -13,10 +13,10 @@ class CreateK2021RekonstruksisTable extends Migration
      */
     public function up()
     {
-        Schema::create('k2021_rekonstruksis', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        // Schema::create('k2021_rekonstruksis', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->timestamps();
+        // });
     }
 
     /**

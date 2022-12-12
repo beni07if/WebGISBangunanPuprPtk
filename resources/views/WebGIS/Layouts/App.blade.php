@@ -27,12 +27,13 @@
                     <li><a class="nav-link scrollto" href="{{ route('index') }}">HOME</a></li>
                     <!-- <li><a class="nav-link scrollto" href="{{ route('data') }}">DATA</a></li> -->
                     <li><a class="nav-link scrollto" href="{{ route('peta2') }}">PETA</a></li>
-                    <li class="dropdown"><a href="#"><span>BANGUNAN GEDUNG</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="nav-link scrollto" href="{{ route('BangunanGedung') }}">DATA BANGUNAN</a></li>
+                    <!-- <li class="dropdown"><a href="#"><span>BANGUNAN GEDUNG</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ route('data') }}">Data Bangunan Gedung</a></li>
                             <li><a href="{{ route('kondisiJalan') }}">Data Kerusakan Gedung</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <!-- <li><a class="nav-link scrollto" href="{{ route('galery') }}">GALERY</a></li> -->
                     <li><a class="nav-link scrollto" href="{{ route('download') }} ">DOWNLOAD</a></li>
                     <li><a class="nav-link scrollto" href="{{ route('contact') }} ">CONTACT</a></li>
@@ -90,9 +91,9 @@
                         <h4>Layanan Kami</h4>
                         <ul>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('index') }}#hero">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('data') }}">Data</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('peta2') }}">Peta</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('galery') }}">Galery</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('data') }}">Data Bangunan</a></li>
+                            <!-- <li><i class="bi bi-chevron-right"></i> <a href="{{ route('galery') }}">Galery</a></li> -->
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('download') }}">Download</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('contact') }}">Contact</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('dashboard2') }}">Login</a></li>

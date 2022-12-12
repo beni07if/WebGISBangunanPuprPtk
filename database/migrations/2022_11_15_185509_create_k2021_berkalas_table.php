@@ -13,10 +13,10 @@ class CreateK2021BerkalasTable extends Migration
      */
     public function up()
     {
-        Schema::create('k2021_berkalas', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        // Schema::create('k2021_berkalas', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->timestamps();
+        // });
     }
 
     /**

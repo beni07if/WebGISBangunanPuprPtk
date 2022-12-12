@@ -13,10 +13,10 @@ class CreateK2020PeningkatansTable extends Migration
      */
     public function up()
     {
-        Schema::create('k2020_peningkatans', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        // Schema::create('k2020_peningkatans', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->timestamps();
+        // });
     }
 
     /**

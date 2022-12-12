@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateK2021TrotoarsTable extends Migration
+class CreateBangunansTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreateK2021TrotoarsTable extends Migration
      */
     public function up()
     {
-        // Schema::create('k2021_trotoars', function (Blueprint $table) {
-        //     $table->id();
-        //     $table->timestamps();
-        // });
+        Schema::create('bangunans', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('bangunan')->nullable();
+            $table->timestamps();
+        });
     }
 
     /**
@@ -26,6 +27,6 @@ class CreateK2021TrotoarsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('k2021_trotoars');
+        Schema::dropIfExists('bangunans');
     }
 }
