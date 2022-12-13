@@ -37,7 +37,7 @@
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" hidden>
                 <div class="col-md-4">
                     <!-- PIE CHART -->
                     <div class="card card-info">

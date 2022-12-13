@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Jalan;
+use App\Models\Dokumentasi;
 use App\Http\Controllers\DashboardController;
 
 class DashboardController extends Controller
@@ -29,20 +29,20 @@ class DashboardController extends Controller
     }
     public function index2()
     {
-        $dataJalan = Jalan::all();
+        $dataDokumentasi = Dokumentasi::all();
         $tes1 = 254.119;
         $tes2 = 31.959;
         $tes3 = 500;
-        return view('AdminPanel.Dashboard2', compact('dataJalan', 'tes1', 'tes2', 'tes3'));
+        return view('AdminPanel.Dashboard2', compact('dataDokumentasi', 'tes1', 'tes2', 'tes3'));
     }
-    public function jalanKota()
+    public function DokumentasiKota()
     {
-        $dataJalan = Jalan::all();
-        return view('AdminPanel.Jalan', compact('dataJalan'));
+        $dataDokumentasi = Dokumentasi::all();
+        return view('AdminPanel.Dokumentasi', compact('dataDokumentasi'));
     }
-    public function tambahJalan()
+    public function tambahDokumentasi()
     {
-        return view('AdminPanel.TambahJalan');
+        return view('AdminPanel.TambahDokumentasi');
     }
 
     /**
@@ -88,10 +88,10 @@ class DashboardController extends Controller
         //
     }
 
-    public function editJalan($id)
+    public function editDokumentasi($id)
     {
-        $jalanDetail = Jalan::where('id', $id)->get();
-        return view('AdminPanel.editJalan', compact('jalanDetail'));
+        $DokumentasiDetail = Dokumentasi::where('id', $id)->get();
+        return view('AdminPanel.editDokumentasi', compact('DokumentasiDetail'));
     }
 
     /**
@@ -106,7 +106,7 @@ class DashboardController extends Controller
         //
     }
 
-    public function updateJalan(Request $request, $id)
+    public function updateDokumentasi(Request $request, $id)
     {
         $validasi = $request->validate([
             // 'user_id' => 'required',
@@ -130,8 +130,8 @@ class DashboardController extends Controller
             'jp_tanah' => 'required'
         ]);
 
-        Jalan::whereId($id)->update($validasi);
-        return redirect('jalan-kota-pontianak')->with('success', 'Data Berhasil Diubah..');
+        Dokumentasi::whereId($id)->update($validasi);
+        return redirect('Dokumentasi-kota-pontianak')->with('success', 'Data Berhasil Diubah..');
     }
 
     /**

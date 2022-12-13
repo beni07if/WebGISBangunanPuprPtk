@@ -2,7 +2,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ route('dashboard2') }}" class="brand-link">
-        <img src="{{ asset('assets/img/logo/logo-webgis-pupr.png')}}" alt="AdminLTE Logo" class="brand-image " style="opacity: .8">
+        <img src="{{ asset('assets/img/logo/logo-web-bangunan2.png')}}" alt="AdminLTE Logo" class="brand-image " style="opacity: .8">
         <!-- <span class="brand-text font-weight-light">SIG Jalan PUPR Ptk</span> -->
     </a>
 
@@ -45,7 +45,7 @@
                         </p>
                     </a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-chart-pie"></i>
                         <p>
@@ -66,29 +66,6 @@
                                 <p>Kondisi Jalan</p>
                             </a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-chart-pie"></i>
-                                <p>
-                                    Kondisi Jalan
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="{{route('parent-jalan.index')}}" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Jalan Utama</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="{{route('child-jalan.index')}}" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Kondisi Jalan</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li> -->
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-chart-pie"></i>
@@ -154,17 +131,41 @@
                             </ul>
                         </li>
                     </ul>
+                </li> -->
+                <li class="nav-item">
+                    <a href="{{ route('bangunan1.index') }}" class="nav-link">
+                        <i class="nav-icon far fa-image"></i>
+                        <p>
+                            Bangunan1
+                        </p>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('dokumentasi.index') }}" class="nav-link">
+                    <a href="{{ route('bangunan2.index') }}" class="nav-link">
+                        <i class="nav-icon far fa-image"></i>
+                        <p>
+                            Bangunan2
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('detail-bangunan.index') }}" class="nav-link">
+                        <i class="nav-icon far fa-image"></i>
+                        <p>
+                            Detail Bangunan
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item" hidden>
+                    <a href="#" class="nav-link">
                         <i class="nav-icon far fa-image"></i>
                         <p>
                             Galery/Dokumen
                         </p>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a href="{{ route('peta.index') }}" class="nav-link">
+                <li class="nav-item" hidden>
+                    <a href="#" class="nav-link">
                         <i class="nav-icon far fa-image"></i>
                         <p>
                             Layout Peta/download

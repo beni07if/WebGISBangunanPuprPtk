@@ -26,7 +26,7 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Nama Bangunan2</th>
+                                <th>Nama Bangunan</th>
                                 <th>Detail</th>
                             </tr>
                         </thead>

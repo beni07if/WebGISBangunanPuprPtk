@@ -97,4 +97,11 @@ Route::get('/download-bangunan', 'App\Http\Controllers\WebGISBangunanController@
 
 // Route::get('/kondisi-jalan', 'App\Http\Controllers\WebGISController@kondisiJalan')->name('kondisiJalan');
 // Route::get('/kondisi-jalan-detail/{id}', 'App\Http\Controllers\WebGISController@kondisiJalanDetail')->name('kondisiJalanDetail');
+
+
+// Admin 
+Route::resource('bangunan1', 'App\Http\Controllers\Bangunan1Controller');
+Route::resource('bangunan2', 'App\Http\Controllers\Bangunan2Controller');
+Route::resource('detail-bangunan', 'App\Http\Controllers\DetailBangunanController');
+
 // End route untuk bangunan
