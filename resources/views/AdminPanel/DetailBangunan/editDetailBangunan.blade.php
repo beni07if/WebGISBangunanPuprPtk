@@ -89,9 +89,9 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="ttlb" class="col-sm-2 col-form-label">ttlb</label>
+                                <label for="ttlb" class="col-sm-2 col-form-label">TTLB</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="TTLB" value="{{$db->ttlb}}" id="ttlb" placeholder="TTLB">
+                                    <input type="text" class="form-control" name="ttlb" value="{{$db->ttlb}}" id="ttlb" placeholder="TTLB">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -204,7 +204,7 @@
                             <button type="Detailmit" class="btn btn-info">Simpan</button>
                             <!-- <button type="Detailmit" class="btn btn-default float-right">Batal</button> -->
                         </div>
-                        <!-- /.card-body -->
+                        <!-- /.card-bodys -->
 
                     </form>
                     @endforeach
