@@ -78,7 +78,7 @@
                                     <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
                                         <div class="feature-box d-flex align-items-center">
                                             <!-- <i class="bi bi-check"></i> -->
-                                            <a href="https://jdih.maritim.go.id/en/peraturan-menteri-lingkungan-hidup-dan-kehutanan-no-9-tahun-2021" target="_blank">
+                                            <a href="#">
                                                 <h4>Link Terkait 1</h4>
                                             </a>
                                         </div>
@@ -87,7 +87,7 @@
                                     <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
                                         <div class="feature-box d-flex align-items-center">
                                             <!-- <i class="bi bi-check"></i> -->
-                                            <a href="https://jdih.setkab.go.id/PUUdoc/176365/PP_Nomor_23_Tahun_2021.pdf" target="_blank">
+                                            <a href="#">
                                                 <h4>Link Terkait 2</h4>
                                             </a>
                                         </div>
