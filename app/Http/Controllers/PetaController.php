@@ -47,7 +47,8 @@ class PetaController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'peta' => 'required|image|mimes:jpg,png,jpeg'
+            // 'peta' => 'required|image|mimes:jpg,png,jpeg'
+            'peta' => 'required|mimes:jpg,png,jpeg,pdf'
         ]);
         $peta = new Peta;
         $peta->judul_peta = $request->judul_peta;
@@ -71,7 +72,7 @@ class PetaController extends Controller
      */
     public function show($id)
     {
-        //
+        //test
     }
 
     /**
@@ -96,7 +97,8 @@ class PetaController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-            'peta' => 'required|image|mimes:jpg,png,jpeg'
+            // 'peta' => 'required|image|mimes:jpg,png,jpeg'
+            'peta' => 'required|mimes:jpg,png,jpeg,pdf'
         ]);
         $peta = Peta::findOrFail($id);
         $peta->judul_peta = $request->input('judul_peta');
