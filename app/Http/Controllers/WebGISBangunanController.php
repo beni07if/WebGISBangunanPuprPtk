@@ -10,6 +10,7 @@ use App\Models\Bangunan2;
 use App\Models\Uraianp1;
 use App\Models\Uraianp2;
 use App\Models\Detailbangunan;
+use App\Models\Lokasi;
 
 class WebGISBangunanController extends Controller
 {
@@ -118,5 +119,14 @@ class WebGISBangunanController extends Controller
     public function downloadBangunan()
     {
         return view('WebGIS.WebGISBangunan.Download.index');
+    }
+    public function WebgisWihang()
+    {
+        return view('WebGIS.WebGISBangunan.wihang.index');
+    }
+    public function LoadJson()
+    {
+        $results = Lokasi::all();
+        return json_encode($results);
     }
 }

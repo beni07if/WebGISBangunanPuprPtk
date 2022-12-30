@@ -53,7 +53,7 @@
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    <form class="form-horizontal" method="POST" action="{{ route('peta.store') }}" enctype="multipart/form-data">
+                    <form class="form-horizontal" method="POST" action="{{ route('peta-layout.store') }}" enctype="multipart/form-data">
                         @csrf
                         <div class="card-body">
                             <div class="form-group row">
@@ -62,12 +62,12 @@
                                     <input type="text" class="form-control" name="judul_peta" id="judul_peta" placeholder="Judul peta ..">
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label for="psjj" class="col-sm-3 col-form-label">Sebaran Jaringan Jalan</label>
+                            <!-- <div class="form-group row">
+                                <label for="psjj" class="col-sm-3 col-form-label">Sebaran Bangunan</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" name="psjj" id="psjj" placeholder="Peta sebaran jaringan jalan ..">
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="form-group row">
                                 <label for="keterangan" class="col-sm-3 col-form-label">Keterangan</label>
                                 <div class="col-sm-9">

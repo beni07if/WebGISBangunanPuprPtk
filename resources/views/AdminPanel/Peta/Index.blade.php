@@ -46,7 +46,7 @@
             @endif
         </div>
         <div class="card-footer">
-            <a href="{{ route('peta.create') }}" class="btn btn-info">Tambah Peta</a>
+            <a href="{{ route('peta-layout.create') }}" class="btn btn-info">Tambah Peta</a>
         </div>
         <div class="card-header">
             <h3 class="card-title">Peta</h3>
@@ -73,9 +73,9 @@
                         <td>{{$petta->judul_peta}}</td>
                         <td>{{$petta->keterangan}}</td>
                         <td><a href="assets/img/peta/{{$petta->peta}}" class="btn btn-info btn-xs" target="_blank"> {{$petta->peta}}</a></td>
-                        <td><a href="{{route('peta.edit', $petta->id)}}" class="btn btn-warning btn-xs swallDefaulSuccess">Edit</a></td>
+                        <td><a href="{{route('peta-layout.edit', $petta->id)}}" class="btn btn-warning btn-xs swallDefaulSuccess">Edit</a></td>
                         <td>
-                            <form action="{{ route('peta.destroy', $petta->id)}}" method="post">
+                            <form action="{{ route('peta-layout.destroy', $petta->id)}}" method="post">
                                 @csrf
                                 @method('DELETE')
                                 <button class="btn btn-danger btn-xs swalDefaultDeleteMahasiswa" type="submit">Delete</button>

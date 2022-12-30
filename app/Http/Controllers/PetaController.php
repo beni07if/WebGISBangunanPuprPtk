@@ -60,7 +60,7 @@ class PetaController extends Controller
         $peta->created_at = now();
         $peta->updated_at = now();
         $peta->save();
-        return redirect('peta')->with('success', 'Peta Berhasil Disimpan..', compact('peta'));
+        return redirect('peta-layout')->with('success', 'Peta Berhasil Disimpan..', compact('peta'));
     }
 
     /**
@@ -107,7 +107,7 @@ class PetaController extends Controller
         $request->file('peta')->move("assets/img/peta/", $fileName);
         $peta->peta = $fileName;
         $peta->save($request->all());
-        return redirect('peta')->with('success', 'Peta Berhasil Diubah..', compact('peta'));
+        return redirect('peta-layout')->with('success', 'Peta Berhasil Diubah..', compact('peta'));
     }
 
     /**
@@ -120,7 +120,7 @@ class PetaController extends Controller
     { {
             $peta = Peta::findOrFail($id);
             $peta->delete();
-            return redirect('peta')->with('success', 'Peta Berhasil Dihapus..', compact('peta'));
+            return redirect('peta-layout')->with('success', 'Peta Berhasil Dihapus..', compact('peta'));
         }
     }
 }

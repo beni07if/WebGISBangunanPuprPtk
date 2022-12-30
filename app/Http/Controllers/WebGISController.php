@@ -102,9 +102,13 @@ class WebGISController extends Controller
         return view('WebGIS.petaJs');
     }
 
-    public function peta2()
+    // public function peta02()
+    // {
+    //     return view('WebGIS.peta2');
+    // }
+    public function peta02()
     {
-        return view('WebGIS.peta2');
+        return view('WebGIS.openai.peta1');
     }
 
     public function pupr()
@@ -131,8 +135,8 @@ class WebGISController extends Controller
     }
     public function galery()
     {
-        $dokumentasi = Dokumentasi::all();
-        return view('WebGIS.galery', compact('dokumentasi'));
+        $peta = Peta::all();
+        return view('WebGIS.galery', compact('peta'));
     }
     public function download()
     {

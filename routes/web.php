@@ -38,7 +38,7 @@ Route::get('/galery', 'App\Http\Controllers\WebGISController@galery')->name('gal
 Route::get('/blog', 'App\Http\Controllers\WebGISController@blog')->name('blog');
 // Route::get('/peta', 'App\Http\Controllers\WebGISController@peta')->name('peta');
 Route::get('/petaJs', 'App\Http\Controllers\WebGISController@petaJs')->name('petaJs');
-Route::get('/peta2', 'App\Http\Controllers\WebGISController@peta2')->name('peta2');
+Route::get('/peta02', 'App\Http\Controllers\WebGISController@peta02')->name('peta02');
 Route::get('/pupr-pontianak', 'App\Http\Controllers\WebGISController@pupr')->name('pupr');
 Route::get('/peta3', 'App\Http\Controllers\WebGISController@peta3')->name('peta3');
 Route::get('/datatable', 'App\Http\Controllers\WebGISController@datatable')->name('datatable');
@@ -67,7 +67,7 @@ Route::get('/jalan-keseluruhan', 'App\Http\Controllers\WebGISController@jalanKes
 
 Route::resource('jalan', 'App\Http\Controllers\JalanController');
 Route::resource('dokumentasi', 'App\Http\Controllers\DokumentasiController');
-Route::resource('peta', 'App\Http\Controllers\PetaController');
+// Route::resource('peta', 'App\Http\Controllers\PetaController');
 Route::resource('parent-jalan', 'App\Http\Controllers\ParentJalanController');
 Route::resource('child-jalan', 'App\Http\Controllers\ChildJalanController');
 
@@ -102,6 +102,18 @@ Route::get('/download-bangunan', 'App\Http\Controllers\WebGISBangunanController@
 // Admin 
 Route::resource('bangunan1', 'App\Http\Controllers\Bangunan1Controller');
 Route::resource('bangunan2', 'App\Http\Controllers\Bangunan2Controller');
+Route::resource('peta-layout', 'App\Http\Controllers\PetaController');
 Route::resource('detail-bangunan', 'App\Http\Controllers\DetailBangunanController');
 
 // End route untuk bangunan
+
+
+Route::get(
+    '/webgis-wihang',
+    'App\Http\Controllers\WebGISBangunanController@WebgisWihang'
+)->name('WebgisWihang');
+
+Route::get(
+    '/lokasi/json',
+    'App\Http\Controllers\WebGISBangunanController@LoadJson'
+)->name('WebgisWihang');

@@ -54,7 +54,7 @@
                     <!-- /.card-header -->
                     <!-- form start -->
                     @foreach($peta as $petta)
-                    <form class="form-horizontal" method="POST" action="{{ route('peta.update', $petta->id) }}" enctype="multipart/form-data">
+                    <form class="form-horizontal" method="POST" action="{{ route('peta-layout.update', $petta->id) }}" enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
                         <div class="card-body">
@@ -64,12 +64,12 @@
                                     <input type="text" class="form-control" name="judul_peta" value="{{$petta->judul_peta}}" id="kecamatan" placeholder="Pontianak ..">
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label for="psjj" class="col-sm-3 col-form-label">Peta Sebaran Jaringan Jalan</label>
+                            <!-- <div class="form-group row">
+                                <label for="psjj" class="col-sm-3 col-form-label">Peta Sebaran Bangunan</label>
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control" name="psjj" value="{{$petta->psjj}}" id="kelurahan" placeholder="Kelurahan">
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="form-group row">
                                 <label for="keterangan" class="col-sm-3 col-form-label">Keterangan</label>
                                 <div class="col-sm-9">

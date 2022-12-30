@@ -26,7 +26,7 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="{{ route('index') }}">HOME</a></li>
                     <!-- <li><a class="nav-link scrollto" href="{{ route('data') }}">DATA</a></li> -->
-                    <li><a class="nav-link scrollto" href="{{ route('peta2') }}">PETA</a></li>
+                    <li><a class="nav-link scrollto" href="{{ route('peta02') }}">PETA</a></li>
                     <li><a class="nav-link scrollto" href="{{ route('BangunanGedung') }}">DATA BANGUNAN</a></li>
                     <!-- <li class="dropdown"><a href="#"><span>BANGUNAN GEDUNG</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
@@ -91,7 +91,7 @@
                         <h4>Layanan Kami</h4>
                         <ul>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('index') }}#hero">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('peta2') }}">Peta</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('peta02') }}">Peta</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('data') }}">Data Bangunan</a></li>
                             <!-- <li><i class="bi bi-chevron-right"></i> <a href="{{ route('galery') }}">Galery</a></li> -->
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('download') }}">Download</a></li>

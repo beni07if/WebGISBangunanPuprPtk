@@ -3,87 +3,67 @@
 @section('Content')
 
 <main id="main">
-    @include('WebGIS.isigaleri')
 
-    <!-- ======= Contact Section ======= -->
-    <!-- <section id="contact" class="contact">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
 
         <div class="container" data-aos="fade-up">
 
-            <header class="section-header">
-                <h2>Contact</h2>
-                <p>Kontak Kami</p>
+            <header class="section-header" style="padding-top: 150px;">
+                <!-- <h2>Portfolios</h2> -->
+                <p>Peta Bangunan Gedung</p>
             </header>
 
-            <div class="row gy-4">
+            <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".benua-krio">Peta Jaringan Jalan Kota</li>
+                        <li data-filter=".gema">Peta Jaringan Jalan Per-Kecamatan</li>
+                    </ul>
+                </div>
+            </div> -->
 
-                <div class="col-lg-6">
+            <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                    <div class="row gy-4">
-                        <div class="col-md-6">
-                            <div class="info-box">
-                                <i class="bi bi-geo-alt"></i>
-                                <h3>Alamat</h3>
-                                <p>UPT. KPH Wilayah Ketapang Utara<br>Jl. Letkol M. Thohir No 11 A Ketapang</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="info-box">
-                                <i class="bi bi-telephone"></i>
-                                <h3>Telephone</h3>
-                                <p>+62 821-3855-1555 (Abdul Karim)</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="info-box">
-                                <i class="bi bi-envelope"></i>
-                                <h3>Email</h3>
-                                <p>limabelassamarinda@gmail.com</p>
+                @foreach($peta as $petta)
+                <!-- gema starsss  -->
+                <div class="col-lg-4 col-md-6 portfolio-item gema">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/peta/{{$petta->peta}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <!-- <h4>App 1</h4>
+                            <p>App</p> -->
+                            <div class="portfolio-links">
+                                <!-- <a href="assets/img/peta/{{$petta->peta}}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="" download=""><i class="bi bi-plus"></i></a> -->
+                                <a href="assets/img/peta/{{$petta->peta}}" title="" download=""><i class="bi bi-download"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                             </div>
                         </div>
                     </div>
-
                 </div>
+                @endforeach
 
-                <div class="col-lg-6">
-                    <form action="forms/contact.php" method="post" class="php-email-form">
-                        <div class="row gy-4">
-
-                            <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" placeholder="Nama Anda" required>
+                <div class="col-lg-4 col-md-6 portfolio-item gema" hidden>
+                    <div class="portfolio-wrap">
+                        <img src="{{ asset('assets/img/galery/gema/2.jpg') }}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <!-- <h4>Web 3</h4>
+                            <p>Web</p> -->
+                            <div class="portfolio-links">
+                                <a href="{{ asset('assets/img/galery/gema/2.jpg') }}" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class=" bi bi-plus"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                             </div>
-
-                            <div class="col-md-6 ">
-                                <input type="email" class="form-control" name="email" placeholder="Email" required>
-                            </div>
-
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" placeholder="Judul" required>
-                            </div>
-
-                            <div class="col-md-12">
-                                <textarea class="form-control" name="message" rows="6" placeholder="Isi pesan" required></textarea>
-                            </div>
-
-                            <div class="col-md-12 text-center">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                                <button type="submit">Kirim pesan</button>
-                            </div>
-
                         </div>
-                    </form>
-
+                    </div>
                 </div>
+
 
             </div>
 
         </div>
 
-    </section> -->
-    <!-- End Contact Section -->
+    </section><!-- End Portfolio Section -->
 
 </main>
 <!-- End #main -->

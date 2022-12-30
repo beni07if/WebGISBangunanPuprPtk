@@ -164,8 +164,8 @@
                         </p>
                     </a>
                 </li>
-                <li class="nav-item" hidden>
-                    <a href="#" class="nav-link">
+                <li class="nav-item">
+                    <a href="{{route('peta-layout.index')}}" class="nav-link">
                         <i class="nav-icon far fa-image"></i>
                         <p>
                             Layout Peta/download

@@ -14,7 +14,7 @@
             <ul>
                 <li><a class="nav-link scrollto" href="{{ route('index') }}">HOME</a></li>
                 <!-- <li><a class="nav-link scrollto" href="{{ route('data') }}">DATA</a></li> -->
-                <li><a class="nav-link scrollto" href="{{ route('peta2') }}">PETA</a></li>
+                <li><a class="nav-link scrollto" href="{{ route('peta02') }}">PETA</a></li>
                 <li><a class="nav-link scrollto" href="{{ route('BangunanGedung') }}">DATA BANGUNAN</a></li>
                 <!-- <li class="dropdown"><a href="#"><span>BANGUNAN GEDUNG</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
@@ -65,7 +65,8 @@
             margin-bottom: -15px;
         }
     </style>
-    <div class="embed-container"><iframe width="800" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="WebGIS Bangunan" src="//www.arcgis.com/apps/Embed/index.html?webmap=8c997ffca17e4a1cb72caa6d53acca65&extent=109.0885,-0.1748,109.5901,0.0958&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legend=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe></div>
+    <!-- <div class="embed-container"><iframe width="800" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="WebGIS Bangunan" src="//www.arcgis.com/apps/Embed/index.html?webmap=8c997ffca17e4a1cb72caa6d53acca65&extent=109.0885,-0.1748,109.5901,0.0958&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legend=true&active_panel=legend&basemap_gallery=true&disable_scroll=false&theme=light"></iframe></div> -->
+    <div class="embed-container"><iframe width="800" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="WebGIS Bangunan" src="https://maps.arcgis.com/apps/mapviewer/index.html?webmap=541bf98d77c9436490dfeab0ba69f61f"></iframe></div>
 
     <!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1aIemFq2ONA3cUjGuypuXHQABdTWMIxE&usp=sharing" width="100%" height="880"></iframe> -->
     <!-- <iframe src="https://maps.arcgis.com/apps/mapviewer/index.html?webmap=de97d7b8e92b4cb489cf530554ce03a8" width="100%" height="880"></iframe> -->
